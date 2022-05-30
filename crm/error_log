@@ -1,0 +1,1 @@
+[26-Jan-2021 11:48:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/techmaster/public_html/demo/pel/crm/operations/dataOperation.php on line 50

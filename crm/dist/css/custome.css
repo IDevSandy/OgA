@@ -1,0 +1,48 @@
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+  padding-right:20px;
+}
+
+.container{
+  padding-top:50px;
+  margin: auto;
+}
+.login-page, .register-page{
+background: rgba(0, 0, 0, 0) url("../img/c.jpg") no-repeat scroll 0 0 / 100% 100%
+}
+
+.login-logo a, .register-logo a{
+color: #fff;
+}
+
+.login-box-body, .register-box-body{
+background:#000 none repeat scroll 0 0;
+color:#fff;
+opacity:0.8;
+}
+
+.login-logo, .register-logo
+{
+background:#000 none repeat scroll 0 0;
+color:#fff;
+opacity:0.8;
+}
+
+}
+.login-box, .register-box {
+    width: 520px !important;
+    margin: 7% auto;
+}
+.btn-primary1 {
+  background: #8360c3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 1rem;
+}
+.form-control {
+    border-radius: 1rem;
+}
