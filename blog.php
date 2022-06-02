@@ -8,7 +8,21 @@
 </head>
 <?php include('header.php');?>
 <body>
+<?php 
+	$where= array(
+                "status" => 1
+                );
+
+	$c=$obj->select_record('blogs',$where);
+
+    
+			
+?>
+<?php echo $c['content']
+?>
+
     
 </body>
+
 <?php include('footer.php');?>
 </html>
