@@ -300,11 +300,11 @@ function number_format_short( $n, $precision = 1 ) {
 
       <!-- mini logo for sidebar mini 50x50 pixels -->
 
-      <span class="logo-mini"><b>PEL</b></span>
+      <span class="logo-mini"><b>OgA</b></span>
 
       <!-- logo for regular state and mobile devices -->
 
-      <span class="logo-lg"><b>PEL</b> <i>CRM</i></span>
+      <span class="logo-lg"><b>OgA</b> <i>Admin</i></span>
 
     </a>
 
@@ -331,25 +331,25 @@ function number_format_short( $n, $precision = 1 ) {
              </a>
            </li>
 
-            <li class="font-weight-bold m5">
+            <!-- <li class="font-weight-bold m5">
                 <a href="categories.php" style="padding: 0px;" class="">
                 <i class="fa fa-cube f25" ></i> <p class="small">Categories</p>
                 </a>
-              </li>
-            <li class="font-weight-bold m5">
+              </li> -->
+            <!-- <li class="font-weight-bold m5">
                  <a href="services.php" style="padding: 0px;" class="">
                  <i class="fa fa-send f25" ></i> <p class="small">Services</p>
                  </a>
-               </li>
+               </li> -->
                <li class="font-weight-bold m5">
                     <a href="testimonials.php" style="padding: 0px;" class="">
                     <i class="fa fa-thumbs-up f25" ></i> <p class="small">Testimonials</p>
                     </a>
-            <li class="font-weight-bold m5">
+            <!-- <li class="font-weight-bold m5">
                <a href="portfolios.php" style="padding: 0px;" class="">
                <i class="fa fa-file-image-o f25" ></i> <p class="small">Portfolios</p>
                </a>
-             </li>
+             </li> -->
 
              <li class="font-weight-bold m5">
               <a href="blogs.php" style="padding: 0px;" class="">
@@ -752,7 +752,7 @@ function number_format_short( $n, $precision = 1 ) {
 
             <a href="#" class="dropdown-toggle dp" data-toggle="dropdown" style="padding: 15px 15px !important;">
 
-              <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+              <img src="dist/img/sudhu.jpeg" class="user-image" alt="User Image">
 
               <span class="hidden-xs"><?php echo $_SESSION['USER']; ?></span>
 
@@ -764,7 +764,7 @@ function number_format_short( $n, $precision = 1 ) {
 
               <li class="user-header">
 
-                <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                <img src="dist/img/sudhu.jpeg" class="img-circle" alt="User Image">
 
 
 

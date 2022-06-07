@@ -3,7 +3,7 @@
 
 <?php include('header.php');?>
 <body>
-<?php 
+  <?php 
 	$where= array(
                 "status" => 1
                 );
@@ -11,8 +11,9 @@
 	$c=$obj->select_record('gallery',$where);
     $s=$obj->select_record('slider',$where);
 			
-		?>
-        <h1><?php echo $c['createdAt']; ?></h1>
+		?> 
+        
+            
 <section class="news-feed">
         <div class="container">
             <div class="row row-margin">
@@ -49,12 +50,12 @@
                                     </a>
                                 </div>
                                 <div class="post-info">
-                                    <span class="color-2">FASHION </span>
-                                    <h3 class="post-title"><a href="#" rel="bookmark">The 20 free things in Sydney with your girlfriend </a></h3>
+                                    <span class="color-2">EDUCATION </span>
+                                    <h3 class="post-title"><a href="#" rel="bookmark">Empowered Girl and Empowered Nation </a></h3>
                                     <div class="post-editor-date">
                                         <!-- post date -->
                                         <div class="post-date">
-                                            <i class="pe-7s-clock"></i> Oct 6, 2016
+                                            <i class="pe-7s-clock"></i> APril 29, 2022
                                         </div>
                                         <!-- post comment -->
                                         <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
@@ -72,12 +73,12 @@
                                     </a>
                                 </div>
                                 <div class="post-info">
-                                    <span class="color-3">FASHION </span>
-                                    <h3 class="post-title"><a href="#" rel="bookmark">The 20 free things in Sydney with your girlfriend </a></h3>
+                                    <span class="color-3">EDUCATION </span>
+                                    <h3 class="post-title"><a href="#" rel="bookmark">Empowered girl and Empowered nation </a></h3>
                                     <div class="post-editor-date">
                                         <!-- post date -->
                                         <div class="post-date">
-                                            <i class="pe-7s-clock"></i> Oct 6, 2016
+                                            <i class="pe-7s-clock"></i> April 29, 2022
                                         </div>
                                         <!-- post comment -->
                                         <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
@@ -95,12 +96,12 @@
                                     </a>
                                 </div>
                                 <div class="post-info">
-                                    <span class="color-4">FASHION </span>
-                                    <h3 class="post-title"><a href="#" rel="bookmark">The 20 free things in Sydney with your girlfriend </a></h3>
+                                    <span class="color-4">EDUCATION </span>
+                                    <h3 class="post-title"><a href="#" rel="bookmark">Empowered girl and Empowered nation</a></h3>
                                     <div class="post-editor-date">
                                         <!-- post date -->
                                         <div class="post-date">
-                                            <i class="pe-7s-clock"></i> Oct 6, 2016
+                                            <i class="pe-7s-clock"></i> April 29, 2022
                                         </div>
                                         <!-- post comment -->
                                         <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
@@ -120,12 +121,12 @@
                             </a>
                         </div>
                         <div class="post-info">
-                            <span class="color-5">FASHION </span>
-                            <h3 class="post-title post-title-size"><a href="#" rel="bookmark">The 20 free things in Sydney with your girlfriend </a></h3>
+                            <span class="color-5">EDUCATION </span>
+                            <h3 class="post-title post-title-size"><a href="#" rel="bookmark">Empowered girl and Empowered nation</a></h3>
                             <div class="post-editor-date">
                                 <!-- post date -->
                                 <div class="post-date">
-                                    <i class="pe-7s-clock"></i> Oct 6, 2016
+                                    <i class="pe-7s-clock"></i> April 22, 2022
                                 </div>
                                 <!-- post comment -->
                                 <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>

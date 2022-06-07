@@ -951,7 +951,7 @@ break;
  /********* USABLE FUNCTIONS*******/
 function getConnection()
 {
-  $connect=mysqli_connect(HOST,DBUSER,DBPASSWORD,DBNAME) or die("Error in Connect database");
+  $connect=mysqli_connect('localhost','root','','oga_db') or die("Error in Connect database");
     return $connect;
 }
 function closeConnection($connectionInstance)

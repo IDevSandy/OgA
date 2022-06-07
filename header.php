@@ -105,6 +105,26 @@
                             </ul>
                             /.nav-second-level 
                         </li>-->
+                        <li> 
+                            <a href="#">All Pages <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                <li> 
+                            <a href="#">Success Story <span class="fa arrow"></span></a>
+                                <ul class="nav nav-third-level">
+                                        <li><a href="international.php">International</a> </li>
+                                        <li><a href="national.php">National</a></li>
+                                        <li><a href="state.php">State</a></li>
+                                        <li><a href="local.php">Local</a></li>
+                                </ul>
+                            </li>
+                                        <li><a href="national.php">Goverment Schemes</a></li>
+                                        <li><a href="state.php">Career</a></li>
+                                        <li><a href="local.php">Blog</a></li>
+                                        <li><a href="local.php">Contact</a></li>
+                                        <li><a href="local.php">About us</a></li>
+                                        <li><a href="local.php">Login or Register</a></li>
+                                </ul>
+                            </li>
                             <li> 
                             <a href="#">Success Story <span class="fa arrow"></span></a>
                                 <ul class="nav nav-third-level">
@@ -117,10 +137,10 @@
                         <li><a href="govermentschemes.php">Goverment Schemes</a></li>
                         <li><a href="career.php">Career</a></li>
                         <li><a href="blog.php">Blog</a></li>
-                        <li><a href="#">Technology</a></li>
-                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About us</a></li>
                         <li>
-                            <a href="login.php">Login Or Register<span class="fa arrow"></span></a>
+                            <!-- <a href="login.php">Login Or Register<span class="fa arrow"></span></a> -->
                             <!-- <ul class="nav nav-second-level">
                                 <li><a href="contact-style-one.html">Contact style one</a> </li>
                                 <li><a href="contact-style-two.html">Contact style two</a></li>
@@ -173,7 +193,7 @@
                     <div class="col-sm-4 col-md-3">
                         <div class="top_header_menu_wrap">
                             <ul class="top-header-menu">
-                                <li><a href="register.php">REGISTER</a></li>
+                                <!-- <li><a href="register.php">REGISTER</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">LOGIN</a>
                                     <ul class="dropdown-menu">
@@ -185,7 +205,7 @@
                                                 <label class="checkbox-inline">
                                                     <input type="checkbox" value="">Remember me</label>
                                                 <button type="button" class="btn btn-lr btn-active">LOGIN</button>
-                                                <button type="button" class="btn btn-lr">REGISTR</button>
+                                                <button type="button" class="btn btn-lr"><a href="register.php"> REGISTR</a></button>
                                                 <div class="foeget"><a href="#">Forget username/password?</a></div>
                                                 <div class="social_icon">
                                                     <div class="social_icon_box social_icon_box_1">
@@ -202,7 +222,7 @@
                                             </div>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> -->
                                 <li><a href="contact.php">CONTACT</a></li>
                             </ul>
                         </div>
@@ -252,15 +272,15 @@
                         <div class="header-logo">
                             <!-- logo -->
                             <a href="index.php">
-                                <img class="td-retina-data img-responsive" src="images/LOGO_OGA.png" alt="">
+                                <img class="td-retina-data img-responsive" src="images/OgA_Logo3.png" alt="">
                             </a>
                         </div>
                     </div>
-                    <div class="col-xs-8 col-md-8 col-sm-8 hidden-xs">
+                    <!-- <div class="col-xs-8 col-md-8 col-sm-8 hidden-xs">
                         <div class="header-banner">
                             <a href="#"><img class="td-retina img-responsive" src="images/top-bannner.jpg" alt=""></a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -311,42 +331,51 @@
                                 <li><a href="login%26registration.html">Login & Registration</a></li>
                             </ul>
                         </li> -->
+                        <li  class="dropdown "> 
+                            <a href="#"class="dropdown-toggle category03" data-toggle="dropdown">ALL PAGES<span class="pe-7s-angle-down"></span></a>
+                                <ul class="dropdown-menu menu-slide">
+                                <li> 
+                                <li class="dropdown-submenu"><a href="#">Success Story</a>
+                                <ul class="dropdown-menu zoomIn">
+                                        <li><a href="international.php">International</a> </li>
+                                        <li><a href="national.php">National</a></li>
+                                        <li><a href="state.php">State</a></li>
+                                        <li><a href="local.php">Local</a></li>
+                                </ul>
+                            </li>
+                                        <li><a href="govermentschemes.php">Goverment Schemes</a></li>
+                                        <li><a href="career.php">Career</a></li>
+                                        <li><a href="blog.php">Blog</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
+                                        <li><a href="about.php">About us</a></li>
+                                        <!-- <li><a href="login.php">Login or Register</a></li> -->
+                                </ul>
+                        </li>
                         <li class="dropdown ">
                             <a href="#" class="dropdown-toggle category03" data-toggle="dropdown">SUCCESS STORY <span class="pe-7s-angle-down"></span></a>
                             <ul class="dropdown-menu menu-slide">
-                                <li><a href="international.php">INTERNATIONAL</a></li>
-                                <li class="dropdown-submenu"><a href="national.php">NATIONAL</a>
-                                    <ul class="dropdown-menu zoomIn">
-                                        <li><a href="#">Style one</a></li>
-                                        <li><a href="#">Style two</a></li>
-                                        <li><a href="#">Style three</a></li>
-                                        <li><a href="#">Style four</a></li>
-                                        <li><a href="#">Style five</a></li>
-                                        <li><a href="#">Style six</a></li>
-                                        <li><a href="#">Style seven</a></li>
-                                    </ul>
+                                <li><a href="international.php">International</a></li>
+                                <li ><a href="national.php">National</a>
+                                   
                                 </li>
                                 <!--<li class="divider"></li>-->
-                                <li><a href="state.php">STATE</a></li>
-                                <li><a href="local.php">LOCAL</a></li>
-                                <li><a href="#">Something</a></li>
-                                <li><a href="#">Separated</a></li>
-                                <li><a href="#">One more</a></li>
-                                <li><a href="#">Separated</a></li>
+                                <li><a href="state.php">State</a></li>
+                                <li><a href="local.php">Local</a></li>
+                             
                             </ul>
                         </li>
                         <li><a href="career.php" class="category04">CAREER</a></li>
                         <li><a href="govermentschemes.php" class="category05">GOVERMENT SCHEMES</a></li>
                         <li><a href="blog.php" class="category06">BLOG</a></li>
-                        <li><a href="#" class="category07">TECHNOLOGY</a></li>
-                        <li><a href="#" class="category08">LIFESTYLE</a></li>
-                        <li class="dropdown">
+                        <li><a href="contact.php" class="category07">CONTACT</a></li>
+                        <li><a href="about.php" class="category08">ABOUT US</a></li>
+                        <!-- <li class="dropdown">
                             <a href="#" class="dropdown-toggle category09" data-toggle="dropdown">CONTACT<span class="pe-7s-angle-down"></span></a>
                             <ul class="dropdown-menu menu-slide">
                                 <li><a href="contact-style-one.html">Contact style one</a> </li>
                                 <li><a href="contact-style-two.html">Contact style two</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <!-- navbar-collapse -->

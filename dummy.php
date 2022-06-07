@@ -4,25 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BLOG</title>
+    <title>Goverment Schemes</title>
 </head>
 <?php include('header.php');?>
 <body>
 <?php 
-	$where= array(
-                "status" => 1
-                );
+	
+        $id=$_REQUEST['id']??'';
+        $where= array(
+        "id" => $id,
+        );
 
 	$c=$obj->select_record('blogs',$where);
   
 			
 		?>
-<div class="container">
+<section class="block-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>GOVERMENT SCHEMES</h1>
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><i class="pe-7s-home"></i> <a href="index.php" title="">Home</a></li>
+                            <li><a href="govermentschemes.php" title="">Goverment Schemes</a></li>
+                        </ul>
+                    </div>
+                    <!-- <form>
+                        <div class="form-group">
+                            <label for="from">From</label>
+                            <input class="form-control" type="text" id="from" name="from">
+                            <label for="to">To</label>
+                            <input class="form-control" type="text" id="to" name="to">
+                            <a href="#" class="btn btn-style">Search</a>
+                        </div>
+                    </form> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
         <div class="row">
             <div class="col-sm-8">
                 <article class="content">
                     <div class="post-thumb">
-                        <img src=<?php echo $c['file_url'] ?> class="img-responsive post-image" alt="">
+                        <img src=<?php echo $c['file_url']; ?> class="img-responsive post-image" alt="">
                         <div class="social">
                             <ul>
                                 <li><a href="#" class="facebook"><i class="fa  fa-facebook"></i><span>3987</span> </a></li>
@@ -33,18 +59,17 @@
                         </div>
                         <!-- /.social icon -->
                     </div>
-                    <h1><?php echo $c['title'] ?></h1>
+                    <h1>Contrary to popular belief, Lorem Ipsum is not simply random text.</h1>
                     <div class="date">
                         <ul>
-                            <li>By<a title="" href="#"><span><?php echo $c['author'] ?></span></a> --</li>
-                            <li><a title="" href="#"><?php echo $c['created_at'] ?></a> --</li>
-                            <li><a title="" href="dummy.php?id=<?php echo $c['id'] ?>"><span>275 Comments</span></a></li>
+                            <li>By<a title="" href="#"><span>Jone Kilna</span></a> --</li>
+                            <li><a title="" href="#">11 Nov 2015</a> --</li>
+                            <li><a title="" href="#"><span>275 Comments</span></a></li>
                         </ul>
                     </div>
-                    <?php echo $c['content'] ?>
-                    <!-- <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem .</p>
+                    <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem .</p>
                     <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, or avoids pleasure itself, because it is pleasure, but because those</p>
-                    quoto
+                    <!-- quoto -->
                     <div class="qtrotator">
                         <div class="qtcontent">
                             <blockquote>
@@ -81,7 +106,7 @@
                         <li><i class="fa fa-check" aria-hidden="true"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </li>
                         <li><i class="fa fa-check" aria-hidden="true"></i>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece</li>
                         <li><i class="fa fa-check" aria-hidden="true"></i>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,</li>
-                    </ul> -->
+                    </ul>
                     <!-- tags -->
                     <div class="tags">
                         <ul>
@@ -261,7 +286,7 @@
                     </div>
                     <!-- form
                         ============================================ -->
-                    <div class="form-area">
+                    <!-- <div class="form-area">
                         <h3 class="category-headding ">LEAVE A COMMENT</h3>
                         <div class="headding-border"></div>
                         <form>
@@ -294,16 +319,16 @@
                             </div>
                         </form>
                     </div>
-                    <!-- comment box
+                    comment box
                         ============================================ -->
-                    <div class="comments-container">
+                    <!--<div class="comments-container">
                         <h1>Comment </h1>
                         <ul id="comments-list" class="comments-list">
                             <li>
                                 <div class="comment-main-level">
-                                    <!-- Avatar -->
-                                    <div class="comment-avatar"><img src="images/comment-01.jpg" class="img-circle" alt=""></div>
-                                    <!-- Contenedor del Comentario -->
+                                     Avatar -->
+                                    <!--<div class="comment-avatar"><img src="images/comment-01.jpg" class="img-circle" alt=""></div>
+                                     Contenedor del Comentario 
                                     <div class="comment-box">
                                         <div class="comment-head">
                                             <h6 class="comment-name by-author"><a href="#">Agustin Ortiz</a></h6>
@@ -316,12 +341,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Respuestas de los comentarios -->
+                                 Respuestas de los comentarios 
                                 <ul class="comments-list reply-list">
                                     <li>
-                                        <!-- Avatar -->
+                                        Avatar 
                                         <div class="comment-avatar"><img src="images/comment-02.jpg" class="img-circle" alt=""></div>
-                                        <!-- Contenedor del Comentario -->
+                                        Contenedor del Comentario 
                                         <div class="comment-box">
                                             <div class="comment-head">
                                                 <h6 class="comment-name"><a href="#">Lorena Rojero</a></h6>
@@ -335,9 +360,9 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <!-- Avatar -->
+                                        Avatar 
                                         <div class="comment-avatar"><img src="images/comment-01.jpg" class="img-circle" alt=""></div>
-                                        <!-- Contenedor del Comentario -->
+                                         Contenedor del Comentario 
                                         <div class="comment-box">
                                             <div class="comment-head">
                                                 <h6 class="comment-name by-author"><a href="#">Agustin Ortiz</a></h6>
@@ -354,9 +379,9 @@
                             </li>
                             <li>
                                 <div class="comment-main-level">
-                                    <!-- Avatar -->
+                                     Avatar 
                                     <div class="comment-avatar"><img src="images/comment-02.jpg" class="img-circle" alt=""></div>
-                                    <!-- Contenedor del Comentario -->
+                                    Contenedor del Comentario 
                                     <div class="comment-box">
                                         <div class="comment-head">
                                             <h6 class="comment-name"><a href="#">Lorena Rojero</a></h6>
@@ -371,25 +396,25 @@
                                 </div>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                 </article>
             </div>
             <div class="col-sm-4 left-padding">
                 <aside class="sidebar">
-                    <div class="input-group search-area">
-                        <!-- search area -->
+                    <!-- <!- <div class="input-group search-area">
+                        <! search area 
                         <input type="text" class="form-control" placeholder="Search articles here ..." name="q">
                         <div class="input-group-btn">
                             <button class="btn btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                         </div>
                     </div>
-                    <!-- /.search area -->
-                    <!-- <div class="banner-add">
-                         add
+                    <!- /.search area 
+                    <div class="banner-add">
+                        <! add 
                         <span class="add-title">- Advertisement -</span>
                         <a href="#"><img src="images/ad-banner.jpg" class="img-responsive center-block" alt=""></a>
                     </div> -->
-                    <div class="tab-inner">
+                    <div class="tab-inner"> 
                         <ul class="tabs">
                             <li><a href="#">POPULAR</a></li>
                             <li><a href="#">MOST VIEWED</a></li>
@@ -632,6 +657,5 @@
 
     
 </body>
-
 <?php include('footer.php');?>
 </html>

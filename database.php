@@ -10,7 +10,7 @@ class database{
 }
 
 class query extends database{
-	public function getData($table,$field='*',$condition_arr='',$order_by_field='',$order_by_type='desc',$limit=''){
+	public function getData($table,$field='*',$condition_arr=[],$order_by_field='',$order_by_type='desc',$limit=''){
 		$sql="select $field from $table ";
 		if($condition_arr!=''){
 			$sql.=' where ';
@@ -55,7 +55,7 @@ class query extends database{
 			$value=implode("','",$valueArr);
 			$value="'".$value."'";			
 			$sql="insert into $table($field) values($value) ";
-			$result=$this->con()->query($sql);
+			$result=$this->con->query($sql);
 		}
 	}
 	
@@ -72,7 +72,7 @@ class query extends database{
 				}
 				$i++;
 			}
-			$result=$this->con()->query($sql);
+			$result=$this->con->query($sql);
 		}
 	}
 	
@@ -90,13 +90,13 @@ class query extends database{
 				$i++;
 			}
 			$sql.=" where $where_field='$where_value' ";
-			$result=$this->con()->query($sql);
+			$result=$this->con->query($sql);
 		}
 	}
 	
 	public function get_safe_str($str){
 		if($str!=''){
-			return mysqli_real_escape_string($this->con(),$str);
+			return mysqli_real_escape_string($this->con,$str);
 		}
 	}
 	// Get Counts
