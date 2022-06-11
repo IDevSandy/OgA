@@ -158,11 +158,11 @@
                 <div class="col-sm-3">
                     <div class="footer-box footer-logo-address">
                         <!-- address  -->
-                        <img src="images/footer-logo.png" class="img-responsive" alt="">
+                        <img src="images/oga1.png" class="img-responsive" alt="">
                         <address>
-                            14L.E Goulburn St, Sydney 2000NSW
-                            <br> Tell: 01922296392
-                            <br> Email: bdtask@gmail.com
+                            Boring Raod, Patna 800001
+                            <br> Tell: +919867456789
+                            <br> Email: sandy@gmail.com
                         </address>
                     </div>
                     <!-- /.address  -->
@@ -214,7 +214,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <p><a href="#" class="color-1">bdtask</a> Theme | All right Reserved 2016</p>
+                    <p><a href="#" class="color-1"></a> Theme | All right Reserved 2016</p>
                     <div class="social">
                         <ul>
                             <li><a href="#" class="facebook"><i class="fa  fa-facebook"></i> </a></li>

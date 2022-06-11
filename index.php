@@ -21,16 +21,16 @@
                     <div class="post-wrapper wow fadeIn" data-wow-duration="2s">
                         <div class="post-thumb img-zoom-in">
                             <a href="#">
-                                <img class="entry-thumb" src=<?php echo $s['file_url']; ?>  alt="">
+                                <img class="entry-thumb" src="images/slider/latest news.jpg"  alt="">
                             </a>
                         </div>
                         <div class="post-info">
-                            <span class="color-1"><?php echo $s['tag']; ?> </span>
-                            <h3 class="post-title post-title-size"><a href="#" rel="bookmark"><?php echo $s['title']; ?></a></h3>
+                            <span class="color-1">LATEST NEWS</span>
+                            <h3 class="post-title post-title-size"><a href="#" rel="bookmark">The unsanitary truth about period poverty and what governments can do</a></h3>
                             <div class="post-editor-date">
                                 <!-- post date -->
                                 <div class="post-date">
-                                    <i class="pe-7s-clock"></i> Oct 6, 2016
+                                    <i class="pe-7s-clock"></i> 09 Jun 2022
                                 </div>
                                 <!-- post comment -->
                                 <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
@@ -46,12 +46,12 @@
                             <div class="post-wrapper wow fadeIn" data-wow-duration="2s">
                                 <div class="post-thumb img-zoom-in">
                                     <a href="#">
-                                        <img class="entry-thumb" src="images/slider/slide-02.jpg" alt="">
+                                        <img class="entry-thumb" src="images/slider/BBBP_PIC (2).jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="post-info">
-                                    <span class="color-2">EDUCATION </span>
-                                    <h3 class="post-title"><a href="#" rel="bookmark">Empowered Girl and Empowered Nation </a></h3>
+                                    <span class="color-2">GOVERMENT SCHEMES</span>
+                                    <h3 class="post-title"><a href="#" rel="bookmark">BETI BACHAO BETI PADHAO </a></h3>
                                     <div class="post-editor-date">
                                         <!-- post date -->
                                         <div class="post-date">
@@ -69,12 +69,12 @@
                             <div class="post-wrapper wow fadeIn" data-wow-duration="2s">
                                 <div class="post-thumb img-zoom-in">
                                     <a href="#">
-                                        <img class="entry-thumb" src="images/slider/slide-03.jpg" alt="">
+                                        <img class="entry-thumb" src="images/slider/One-Stop-Centre-Scheme (1).jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="post-info">
-                                    <span class="color-3">EDUCATION </span>
-                                    <h3 class="post-title"><a href="#" rel="bookmark">Empowered girl and Empowered nation </a></h3>
+                                    <span class="color-3">GOVERMENT SCHEMES </span>
+                                    <h3 class="post-title"><a href="#" rel="bookmark">One Stop Centre Scheme</a></h3>
                                     <div class="post-editor-date">
                                         <!-- post date -->
                                         <div class="post-date">
@@ -92,12 +92,12 @@
                             <div class="post-wrapper wow fadeIn" data-wow-duration="2s">
                                 <div class="post-thumb img-zoom-in">
                                     <a href="#">
-                                        <img class="entry-thumb" src="images/slider/slide-04.jpg" alt="">
+                                        <img class="entry-thumb" src="images/slider/WWh (2).jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="post-info">
-                                    <span class="color-4">EDUCATION </span>
-                                    <h3 class="post-title"><a href="#" rel="bookmark">Empowered girl and Empowered nation</a></h3>
+                                    <span class="color-4">GOVERMENT SCHEMES </span>
+                                    <h3 class="post-title"><a href="#" rel="bookmark">Women Helpline Scheme</a></h3>
                                     <div class="post-editor-date">
                                         <!-- post date -->
                                         <div class="post-date">
@@ -117,12 +117,12 @@
                     <div class="post-wrapper wow fadeIn" data-wow-duration="2s">
                         <div class="post-thumb img-zoom-in">
                             <a href="#">
-                                <img class="entry-thumb" src="images/slider/slide-05.jpg" alt="">
+                                <img class="entry-thumb" src="images/slider/children.jpg" alt="">
                             </a>
                         </div>
                         <div class="post-info">
-                            <span class="color-5">EDUCATION </span>
-                            <h3 class="post-title post-title-size"><a href="#" rel="bookmark">Empowered girl and Empowered nation</a></h3>
+                            <span class="color-5">LATEST NEWS </span>
+                            <h3 class="post-title post-title-size"><a href="#" rel="bookmark">Educate Women, Girls To Control Population, Fertility Rate": Nitish Kumar</a></h3>
                             <div class="post-editor-date">
                                 <!-- post date -->
                                 <div class="post-date">
@@ -152,10 +152,10 @@
                             <div class="item">
                                 <div class="post-wrapper wow fadeIn" data-wow-duration="1s">
                                     <!-- image -->
-                                    <h3><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting.</a></h3>
+                                    <h3><a href="#">The ratio of men to women in engineering is 5:1.</a></h3>
                                     <div class="post-thumb">
                                         <a href="#">
-                                            <img class="img-responsive" src="images/recent_news_01.jpg" alt="">
+                                            <img class="img-responsive" src="images/tec recent.jpg" alt="">
                                         </a>
                                     </div>
                                     <div class="post-info meta-info-rn">
@@ -167,21 +167,21 @@
                                 <div class="post-title-author-details">
                                     <div class="post-editor-date">
                                         <div class="post-date">
-                                            <i class="pe-7s-clock"></i> Oct 6, 2016
+                                            <i class="pe-7s-clock"></i> jun 9, 20
                                         </div>
                                         <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
                                     </div>
-                                    <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true <a href="#">Read more...</a></p>
+                                    <p>The ratio of men to women in engineering is 5:1. (Source: TechRadius) According to women in tech statistics for 2020, men outnumber women in the Engineering industry. A whopping 80% of those in the field are male, while only 20% are female.<a href="#">Read more...</a></p>
                                 </div>
                             </div>
                             <!-- item-2 -->
                             <div class="item">
                                 <div class="post-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                                     <!-- image -->
-                                    <h3><a href="#">Contrary to popular belief, Lorem Ipsum is not simply random text.</a></h3>
+                                    <h3><a href="#">Girls' education is a climate solution': Malala Yousafzai joins climate protest</a></h3>
                                     <div class="post-thumb">
                                         <a href="#">
-                                            <img class="img-responsive" src="images/recent_news_02.jpg" alt="">
+                                            <img class="img-responsive" src="images/recent.jpg" alt="">
                                         </a>
                                     </div>
                                     <div class="post-info meta-info-rn">
@@ -197,7 +197,7 @@
                                         </div>
                                         <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
                                     </div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text <a href="#">Read more...</a></p>
+                                    <p>STOCKHOLM (Reuters) - The fight against climate change is also a fight for the right to education of girls, millions of whom lose access to schools due to climate-related events, Nobel Peace Prize laureate Malala Yousafzai told Reuters on Friday<a href="#">Read more...</a></p>
                                 </div>
                             </div>
                             <!-- item-3 -->
@@ -234,7 +234,7 @@
                                 <!-- image -->
                                 <div class="post-thumb">
                                     <a href="#">
-                                        <img class="img-responsive" src="images/recent_news_04.jpg" alt="">
+                                        <img class="img-responsive" src="images/health recen.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="post-info meta-info-rn">
@@ -244,7 +244,7 @@
                                 </div>
                             </div>
                             <div class="post-title-author-details">
-                                <h4><a href="#">World Econmy Changing and Affecting in 3rd ...</a></h4>
+                                <h4><a href="#">The unsanitary truth about period poverty and what governments can do...</a></h4>
                                 <div class="post-editor-date">
                                     <div class="post-date">
                                         <i class="pe-7s-clock"></i> Oct 6, 2016
@@ -258,7 +258,7 @@
                                 <!-- image -->
                                 <div class="post-thumb">
                                     <a href="#">
-                                        <img class="img-responsive" src="images/recent_news_05.jpg" alt="">
+                                        <img class="img-responsive" src="images/politic.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="post-info meta-info-rn">
@@ -268,7 +268,7 @@
                                 </div>
                             </div>
                             <div class="post-title-author-details">
-                                <h4><a href="#">It is a long established fact that a reader will be ...</a></h4>
+                                <h4><a href="#">Representation of women in Indian Parliament is far less than the global average ...</a></h4>
                                 <div class="post-editor-date">
                                     <div class="post-date">
                                         <i class="pe-7s-clock"></i> Oct 6, 2016
@@ -282,7 +282,7 @@
                                 <!-- image -->
                                 <div class="post-thumb">
                                     <a href="#">
-                                        <img class="img-responsive" src="images/recent_news_06.jpg" alt="">
+                                        <img class="img-responsive" src="images/Miss-Universe-2021-Meet-Harnaaz-Sandh.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="post-info meta-info-rn">
@@ -292,7 +292,7 @@
                                 </div>
                             </div>
                             <div class="post-title-author-details">
-                                <h4><a href="#">Various versions have evolved over the years, ...</a></h4>
+                                <h4><a href="#">Miss Universe 2022 Miss Universe 2022 will be the 71st Miss Universe pageant. Harnaaz Sandhu of India will crown her successor at the end of the event ...</a></h4>
                                 <div class="post-editor-date">
                                     <div class="post-date">
                                         <i class="pe-7s-clock"></i> Oct 6, 2016
@@ -544,7 +544,7 @@
                 </section>
                 <!-- /.Politics -->
                 <div class="ads">
-                    <a href="#"><img src="images/top-bannner2.jpg" class="img-responsive center-block" alt=""></a>
+                    <a href="#"><img src="images/banner.png" class="img-responsive center-block" alt=""></a>
                 </div>
             </div>
             <!-- /.left content inner -->
@@ -586,8 +586,8 @@
                 <!-- /.twitter feed -->
                 <div class="banner-add">
                     <!-- add -->
-                    <span class="add-title">- Advertisement -</span>
-                    <a href="#"><img src="images/ad-banner.jpg" class="img-responsive center-block" alt=""></a>
+                    <span class="add-title">- Empowered Girl Empowered Nation -</span>
+                    <a href="#"><img src="images/banner2.jpg" class="img-responsive center-block" alt=""></a>
                 </div>
                 <div class="tab-inner">
                     <ul class="tabs">
