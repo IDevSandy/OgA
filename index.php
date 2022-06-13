@@ -295,7 +295,7 @@
                                 <h4><a href="#">Miss Universe 2022 Miss Universe 2022 will be the 71st Miss Universe pageant. Harnaaz Sandhu of India will crown her successor at the end of the event ...</a></h4>
                                 <div class="post-editor-date">
                                     <div class="post-date">
-                                        <i class="pe-7s-clock"></i> Oct 6, 2016
+                                        <i class="pe-7s-clock"></i> jun 9, 2022
                                     </div>
                                     <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
                                 </div>
@@ -317,11 +317,11 @@
                                     <div class="col-sm-6 col-md-6">
                                         <div class="post-wrapper wow fadeIn" data-wow-duration="2s">
                                             <!-- post title -->
-                                            <h3><a href="#">The standard chunk of Lorem Ipsum used since the 1500s is .</a></h3>
+                                            <h3><a href="#">Press release: Women in politics: New data shows growth but also setbacks .</a></h3>
                                             <!-- post image -->
                                             <div class="post-thumb">
                                                 <a href="#">
-                                                    <img src="images/politics_01.jpg" class="img-responsive" alt="">
+                                                    <img src="images/politics1.jpg" class="img-responsive" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -329,12 +329,12 @@
                                             <div class="post-editor-date">
                                                 <!-- post date -->
                                                 <div class="post-date">
-                                                    <i class="pe-7s-clock"></i> Oct 6, 2016
+                                                    <i class="pe-7s-clock"></i> 10 March 2021
                                                 </div>
                                                 <!-- post comment -->
                                                 <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
                                             </div>
-                                            <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true <a href="#">Read more...</a></p>
+                                            <p>Despite increases in the number of women at the highest levels of political power, widespread gender inequalities persist, according to the 2021 edition of the IPU~UN Women <a href="#">Read more...</a></p>
                                         </div>
                                     </div>
                                     <!-- right side post -->
@@ -344,16 +344,16 @@
                                                 <!-- post image -->
                                                 <div class="post-thumb wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
                                                     <a href="#">
-                                                        <img src="images/politics_02.jpg" class="img-responsive" alt="">
+                                                        <img src="images/politics2.jpg" class="img-responsive" alt="">
                                                     </a>
                                                 </div>
                                                 <div class="post-title-author-details">
                                                     <!-- post image -->
-                                                    <h5><a href="#">All the Lorem Ipsum generators on the </a></h5>
+                                                    <h5><a href="#">New Study Finds Disparity Between Men and Women In Politics In India Is Immense </a></h5>
                                                     <div class="post-editor-date">
                                                         <!-- post date -->
                                                         <div class="post-date">
-                                                            <i class="pe-7s-clock"></i> Oct 6, 2016
+                                                            <i class="pe-7s-clock"></i> June 10, 2022
                                                         </div>
                                                         <!-- post comment -->
                                                         <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
@@ -1348,7 +1348,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="ads">
-                    <a href="#"><img src="images/top-bannner2.jpg" class="img-responsive center-block" alt=""></a>
+                    <a href="#"><img src="images/banner.jpg" class="img-responsive center-block" alt=""></a>
                 </div>
             </div>
         </div>

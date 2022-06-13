@@ -232,9 +232,9 @@
                         <div class="newsticker-inner">
                             <ul class="newsticker">
                                 <li><span class="color-1">Career</span><a href="career.php">Etiam imperdiet volutpat libero eu tristique.imperdiet volutpat libero eu tristique.</a></li>
-                                <li><span class="color-2">International</span><a href="#">Curabitur porttitor ante eget hendrerit adipiscing.</a></li>
-                                <li><span class="color-3">Health</span><a href="#">Praesent ornare nisl lorem, ut condimentum lectus gravida ut.</a></li>
-                                <li><span class="color-4">technology</span><a href="#">Nunc ultrices tortor eu massa placerat posuere.</a></li>
+                                <li><span class="color-2">International</span><a href="#">Girls' education is a climate solution': Malala Yousafzai joins climate protest</a></li>
+                                <li><span class="color-3">Health</span><a href="#">The unsanitary truth about period poverty and what governments can do</a></li>
+                                <li><span class="color-4">technology</span><a href="#">The ratio of men to women in engineering is 5:1.</a></li>
                                 <li><span class="color-1">Travel</span><a href="#">Etiam imperdiet volutpat libero eu tristique.imperdiet volutpat libero eu tristique.</a></li>
                             </ul>
                             <div class="next-prev-inner">

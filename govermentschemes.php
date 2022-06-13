@@ -61,7 +61,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <p>The trend of decline in the Child Sex Ratio (CSR), defined as number of girls per 1000 of boys between 0-6 years of age, has been unabated since 1961. <a href=dummy.php>Read more...</a></p>
+                            <p>The trend of decline in the Child Sex Ratio (CSR), defined as number of girls per 1000 of boys between 0-6 years of age, has been unabated since 1961. <a href=<?php echo $c['content'] ?>>Read more...</a></p>
                         </div>
                     </div>
                     <!-- archive post -->
