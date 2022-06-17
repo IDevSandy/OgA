@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/fev.png" />
+    <link rel="shortcut icon" href="images/favicon.png" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>OgA</title>
     <!-- google fonts -->
@@ -109,7 +109,7 @@
                             <a href="#">All Pages <span class="fa arrow"></span></a>
                                 <ul class="nav nav-third-level">
                                 <li> 
-                            <a href="#">Success Story <span class="fa arrow"></span></a>
+                            <a href="#">OGA Feed<span class="fa arrow"></span></a>
                                 <ul class="nav nav-third-level">
                                         <li><a href="international.php">International</a> </li>
                                         <li><a href="national.php">National</a></li>
@@ -126,7 +126,7 @@
                                 </ul>
                             </li>
                             <li> 
-                            <a href="#">Success Story <span class="fa arrow"></span></a>
+                            <a href="#">OGA Feed <span class="fa arrow"></span></a>
                                 <ul class="nav nav-third-level">
                                         <li><a href="international.php">International</a> </li>
                                         <li><a href="national.php">National</a></li>
@@ -193,7 +193,7 @@
                     <div class="col-sm-4 col-md-3">
                         <div class="top_header_menu_wrap">
                             <ul class="top-header-menu">
-                                <!-- <li><a href="register.php">REGISTER</a></li>
+                                <li><a href="register.php">REGISTER</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">LOGIN</a>
                                     <ul class="dropdown-menu">
@@ -222,7 +222,7 @@
                                             </div>
                                         </li>
                                     </ul>
-                                </li> -->
+                                </li>
                                 <li><a href="contact.php">CONTACT</a></li>
                             </ul>
                         </div>
@@ -335,7 +335,7 @@
                             <a href="#"class="dropdown-toggle category03" data-toggle="dropdown">ALL PAGES<span class="pe-7s-angle-down"></span></a>
                                 <ul class="dropdown-menu menu-slide">
                                 <li> 
-                                <li class="dropdown-submenu"><a href="#">Success Story</a>
+                                <li class="dropdown-submenu"><a href="#">OGA Feed</a>
                                 <ul class="dropdown-menu zoomIn">
                                         <li><a href="international.php">International</a> </li>
                                         <li><a href="national.php">National</a></li>
@@ -352,7 +352,7 @@
                                 </ul>
                         </li>
                         <li class="dropdown ">
-                            <a href="#" class="dropdown-toggle category03" data-toggle="dropdown">SUCCESS STORY <span class="pe-7s-angle-down"></span></a>
+                            <a href="#" class="dropdown-toggle category03" data-toggle="dropdown">OGA FEED <span class="pe-7s-angle-down"></span></a>
                             <ul class="dropdown-menu menu-slide">
                                 <li><a href="international.php">International</a></li>
                                 <li ><a href="national.php">National</a>
@@ -368,7 +368,9 @@
                         <li><a href="govermentschemes.php" class="category05">GOVERMENT SCHEMES</a></li>
                         <li><a href="blog.php" class="category06">BLOG</a></li>
                         <li><a href="contact.php" class="category07">CONTACT</a></li>
+                        <li><a href="login.php" class="category08">LOGIN & REGISTRATION</a></li>
                         <li><a href="about.php" class="category08">ABOUT US</a></li>
+                        
                         <!-- <li class="dropdown">
                             <a href="#" class="dropdown-toggle category09" data-toggle="dropdown">CONTACT<span class="pe-7s-angle-down"></span></a>
                             <ul class="dropdown-menu menu-slide">

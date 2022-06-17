@@ -8,7 +8,21 @@
 </head>
 <?php include('header.php');?>
 <body>
-    
+<section class="block-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>OUR MISSION</h1>
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><i class="pe-7s-home"></i> <a href="index.php" title="">Home</a></li>
+                            <li><a href="about.php" title="">ABOUT US</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
 </body>
 <?php include('footer.php');?>
 </html>

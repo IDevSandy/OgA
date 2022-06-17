@@ -4,25 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BLOG</title>
+    <title>OgA Feed</title>
 </head>
 <?php include('header.php');?>
 <body>
-<?php 
-	$where= array(
-                "status" => 1
-                );
-
-	$c=$obj->select_record('blogs',$where);
-  
-			
-		?>
+<div class="se-pre-con"></div>
 <div class="container">
         <div class="row">
             <div class="col-sm-8">
                 <article class="content">
                     <div class="post-thumb">
-                        <img src=<?php echo $c['file_url'] ?> class="img-responsive post-image" alt="">
+                        <img src="images/details-01.jpg" class="img-responsive post-image" alt="">
                         <div class="social">
                             <ul>
                                 <li><a href="#" class="facebook"><i class="fa  fa-facebook"></i><span>3987</span> </a></li>
@@ -33,18 +25,17 @@
                         </div>
                         <!-- /.social icon -->
                     </div>
-                    <h1><?php echo $c['title'] ?></h1>
+                    <h1>Contrary to popular belief, Lorem Ipsum is not simply random text.</h1>
                     <div class="date">
                         <ul>
-                            <li>By<a title="" href="#"><span><?php echo $c['author'] ?></span></a> --</li>
-                            <li><a title="" href="#"><?php echo $c['created_at'] ?></a> --</li>
-                            <li><a title="" href="dummy.php?id=<?php echo $c['id'] ?>"><span>275 Comments</span></a></li>
+                            <li>By<a title="" href="#"><span>Jone Kilna</span></a> --</li>
+                            <li><a title="" href="#">11 Nov 2015</a> --</li>
+                            <li><a title="" href="#"><span>275 Comments</span></a></li>
                         </ul>
                     </div>
-                    <?php echo $c['content'] ?>
-                    <!-- <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem .</p>
+                    <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem .</p>
                     <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, or avoids pleasure itself, because it is pleasure, but because those</p>
-                    quoto
+                    <!-- quoto -->
                     <div class="qtrotator">
                         <div class="qtcontent">
                             <blockquote>
@@ -81,7 +72,7 @@
                         <li><i class="fa fa-check" aria-hidden="true"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </li>
                         <li><i class="fa fa-check" aria-hidden="true"></i>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece</li>
                         <li><i class="fa fa-check" aria-hidden="true"></i>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,</li>
-                    </ul> -->
+                    </ul>
                     <!-- tags -->
                     <div class="tags">
                         <ul>
@@ -259,130 +250,22 @@
                             </div>
                         </div>
                     </div>
-                    <!-- form
-                        ============================================ -->
-                    <div class="form-area">
-                        <h3 class="category-headding ">LEAVE A COMMENT</h3>
-                        <div class="headding-border"></div>
-                        <form>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <span class="input">
-                                            <input class="input_field" type="text" id="input-1">
-                                            <label class="input_label" for="input-1">
-                                                <span class="input_label_content" data-content="Your Name">Your Name</span>
-                                    </label>
-                                    </span>
-                                </div>
-                                <div class="col-sm-6">
-                                    <span class="input">
-                                            <input class="input_field" type="text" id="input-2">
-                                            <label class="input_label" for="input-2">
-                                                <span class="input_label_content" data-content="Your Email">Your Email</span>
-                                    </label>
-                                    </span>
-                                </div>
-                                <div class="col-sm-12">
-                                    <span class="input">
-                                            <textarea class="input_field" id="message"></textarea>
-                                            <label class="input_label" for="message">
-                                                <span class="input_label_content" data-content="Your Email">Your Message</span>
-                                    </label>
-                                    </span>
-                                    <button type="button" class="btn btn-style">Post Your Comment</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- comment box
-                        ============================================ -->
-                    <div class="comments-container">
-                        <h1>Comment </h1>
-                        <ul id="comments-list" class="comments-list">
-                            <li>
-                                <div class="comment-main-level">
-                                    <!-- Avatar -->
-                                    <div class="comment-avatar"><img src="images/comment-01.jpg" class="img-circle" alt=""></div>
-                                    <!-- Contenedor del Comentario -->
-                                    <div class="comment-box">
-                                        <div class="comment-head">
-                                            <h6 class="comment-name by-author"><a href="#">Agustin Ortiz</a></h6>
-                                            <span>hace 20 minutos</span>
-                                            <i class="fa fa-reply"></i>
-                                            <i class="fa fa-heart"></i>
-                                        </div>
-                                        <div class="comment-content">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Respuestas de los comentarios -->
-                                <ul class="comments-list reply-list">
-                                    <li>
-                                        <!-- Avatar -->
-                                        <div class="comment-avatar"><img src="images/comment-02.jpg" class="img-circle" alt=""></div>
-                                        <!-- Contenedor del Comentario -->
-                                        <div class="comment-box">
-                                            <div class="comment-head">
-                                                <h6 class="comment-name"><a href="#">Lorena Rojero</a></h6>
-                                                <span>hace 10 minutos</span>
-                                                <i class="fa fa-reply"></i>
-                                                <i class="fa fa-heart"></i>
-                                            </div>
-                                            <div class="comment-content">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <!-- Avatar -->
-                                        <div class="comment-avatar"><img src="images/comment-01.jpg" class="img-circle" alt=""></div>
-                                        <!-- Contenedor del Comentario -->
-                                        <div class="comment-box">
-                                            <div class="comment-head">
-                                                <h6 class="comment-name by-author"><a href="#">Agustin Ortiz</a></h6>
-                                                <span>hace 10 minutos</span>
-                                                <i class="fa fa-reply"></i>
-                                                <i class="fa fa-heart"></i>
-                                            </div>
-                                            <div class="comment-content">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <div class="comment-main-level">
-                                    <!-- Avatar -->
-                                    <div class="comment-avatar"><img src="images/comment-02.jpg" class="img-circle" alt=""></div>
-                                    <!-- Contenedor del Comentario -->
-                                    <div class="comment-box">
-                                        <div class="comment-head">
-                                            <h6 class="comment-name"><a href="#">Lorena Rojero</a></h6>
-                                            <span>hace 10 minutos</span>
-                                            <i class="fa fa-reply"></i>
-                                            <i class="fa fa-heart"></i>
-                                        </div>
-                                        <div class="comment-content">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit omnis animi et iure laudantium vitae, praesentium optio, sapiente distinctio illo?
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                  
+                    
+                    
+                   
+                    
                 </article>
             </div>
             <div class="col-sm-4 left-padding">
                 <aside class="sidebar">
-                    <div class="input-group search-area">
-                        <!-- search area -->
+                    <!-- <div class="input-group search-area">
+                         search area 
                         <input type="text" class="form-control" placeholder="Search articles here ..." name="q">
                         <div class="input-group-btn">
                             <button class="btn btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- /.search area -->
                     <div class="banner-add">
                         <!-- add -->
@@ -559,29 +442,7 @@
                         <!-- / tab_content -->
                     </div>
                     <!-- / tab -->
-                    <!-- comments -->
-                    <div class="latest-comments-inner">
-                        <h3 class="category-headding ">LATEST COMMENT</h3>
-                        <div class="headding-border"></div>
-                        <!-- latest comment post -->
-                        <div class="post-style2 latest-com">
-                            <img src="images/comment-01.jpg" alt="">
-                            <div class="latest-com-detail">
-                                <h5><a href="#" title="">It uses a dictionary of over</a></h5>
-                                <span>Nec sagittis sem nibh dictionary...</span>
-                                <p>Proin gravida nibh vel velit auctor aliquet. </p>
-                            </div>
-                        </div>
-                        <!-- latest comment post -->
-                        <div class="post-style2 latest-com">
-                            <img src="images/comment-02.jpg" alt="">
-                            <div class="latest-com-detail">
-                                <h5><a href="#" title="">It uses a dictionary of over</a></h5>
-                                <span>Nec sagittis sem nibh dictionary...</span>
-                                <p>Proin gravida nibh vel velit auctor aliquet. </p>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <!-- slider widget -->
                     <div class="widget-slider-inner">
                         <h3 class="category-headding ">Slider Widget</h3>
@@ -629,9 +490,6 @@
             </div>
         </div>
     </div>
-
-    
 </body>
-
 <?php include('footer.php');?>
 </html>
