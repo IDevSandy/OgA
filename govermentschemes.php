@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goverment Schemes</title>
+    
 </head>
 <?php include('header.php');?>
+<style>
+ .text {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+}
+</style>
 <body>
-<?php 
-	$where= array(
-                "id" => 5
-                );
-
-	$c=$obj->select_record('blogs',$where);
-  
-			
-		?>
+    
 <section class="block-inner">
         <div class="container">
             <div class="row">
@@ -48,8 +51,14 @@
                 <!-- Left content -->
                 <div class="col-sm-12 col-md-6">
                     <!-- archive post -->
+                    <?php $where =array(
+                        "category_id"=>3,
+                    );
+                    $c=$obj->getData('blogs','*',$where,'id','desc');
+                    foreach(array_slice($c,0,5) as $c){
+                    ?>
                     <div class="post-style2 archive-post-style-2">
-                        <a href="#"><img src=<?php echo $c['file_url'] ?> alt=""></a>
+                        <a href="#"><img src=<?php echo $c['file_url'] ?> alt="" width="218" height="165"></a>
                         <div class="post-style2-detail">
                             <h4><a href="#" title=""><?php echo $c['title'] ?></a></h4>
                             <div class="date">
@@ -61,11 +70,12 @@
                                     </li>
                                 </ul>
                             </div>
-                            <p>The trend of decline in the Child Sex Ratio (CSR), defined as number of girls per 1000 of boys between 0-6 years of age, has been unabated since 1961. <a href=<?php echo $c['content'] ?>>Read more...</a></p>
+                            <div class="text"><?php echo $c['content']?></div> <a href=detail.php?id=<?php echo $c['id']?>&<?php echo $c['permalink'] ?> >Read more...</a>
                         </div>
                     </div>
+                    <?php } ?>
                     <!-- archive post -->
-                    <div class="post-style2 archive-post-style-2">
+                    <!-- <div class="post-style2 archive-post-style-2">
                         <a href="#"><img src="images/archive/archive-02.jpg" alt=""></a>
                         <div class="post-style2-detail">
                             <h4><a href="#" title="">It uses a dictionary of over 200 Latin words, combined with</a></h4>
@@ -80,9 +90,9 @@
                             </div>
                             <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit. <a href="#">Read more...</a></p>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- archive post -->
-                    <div class="post-style2 archive-post-style-2">
+                    <!-- <div class="post-style2 archive-post-style-2">
                         <a href="#"><img src="images/archive/archive-03.jpg" alt=""></a>
                         <div class="post-style2-detail">
                             <h4><a href="#" title="">It uses a dictionary of over 200 Latin words, combined with</a></h4>
@@ -97,9 +107,9 @@
                             </div>
                             <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit. <a href="#">Read more...</a></p>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- archive post -->
-                    <div class="post-style2 archive-post-style-2">
+                    <!-- <div class="post-style2 archive-post-style-2">
                         <a href="#"><img src="images/archive/archive-04.jpg" alt=""></a>
                         <div class="post-style2-detail">
                             <h4><a href="#" title="">It uses a dictionary of over 200 Latin words, combined with</a></h4>
@@ -114,9 +124,9 @@
                             </div>
                             <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit. <a href="#">Read more...</a></p>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- archive post -->
-                    <div class="post-style2 archive-post-style-2">
+                    <!-- <div class="post-style2 archive-post-style-2">
                         <a href="#"><img src="images/archive/archive-05.jpg" alt=""></a>
                         <div class="post-style2-detail">
                             <h4><a href="#" title="">It uses a dictionary of over 200 Latin words, combined with</a></h4>
@@ -130,11 +140,11 @@
                                 </ul>
                             </div>
                             <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit. <a href="#">Read more...</a></p>
-                            <!--<a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>-->
+                            <a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- archive post -->
-                    <div class="post-style2 archive-post-style-2">
+                    <!-- <div class="post-style2 archive-post-style-2">
                         <a href="#"><img src="images/archive/archive-06.jpg" alt=""></a>
                         <div class="post-style2-detail">
                             <h4><a href="#" title="">It uses a dictionary of over 200 Latin words, combined with</a></h4>
@@ -148,17 +158,23 @@
                                 </ul>
                             </div>
                             <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit. <a href="#">Read more...</a></p>
-                            <!--<a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>-->
+                            <a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>
                         </div>
-                    </div>
-                </div>
+                    </div>-->
+                </div> 
                 <!-- right content -->
                 <div class="col-sm-12 col-md-6">
+                <?php $where =array(
+                        "category_id"=>3,
+                    );
+                    $c=$obj->getData('blogs','*',$where,'id','desc');
+                    foreach(array_slice($c,6) as $c){
+                    ?>
                     <!-- archive post -->
                     <div class="post-style2 archive-post-style-2">
-                        <a href="#"><img src="images/archive/archive-07.jpg" alt=""></a>
+                        <a href="#"><img src=<?php echo $c['file_url'] ?> alt=""width="218" height="165"></a>
                         <div class="post-style2-detail">
-                            <h4><a href="#" title="">It uses a dictionary of over 200 Latin words, combined with</a></h4>
+                            <h4><a href="#" title=""><?php echo $c['title'] ?></a></h4>
                             <div class="date">
                                 <ul>
                                     <li>By<a title="" href="#"><span>Jone Kilna</span></a> --</li>
@@ -168,12 +184,14 @@
                                     </li>
                                 </ul>
                             </div>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit. <a href="#">Read more...</a></p>
+                            <div class="text"><?php echo $c['content']?></div> <a href=detail.php?id=<?php echo $c['id']?>&<?php echo $c['permalink'] ?> >Read more...</a>
+                        
                             <!--<a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>-->
                         </div>
                     </div>
+                    <?php } ?>
                     <!-- archive post -->
-                    <div class="post-style2 archive-post-style-2">
+                    <!-- <div class="post-style2 archive-post-style-2">
                         <a href="#"><img src="images/archive/archive-08.jpg" alt=""></a>
                         <div class="post-style2-detail">
                             <h4><a href="#" title="">It uses a dictionary of over 200 Latin words, combined with</a></h4>
@@ -186,12 +204,12 @@
                                     </li>
                                 </ul>
                             </div>
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit. <a href="#">Read more...</a></p>
+                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit. <a href="#">Read more...</a></p> -->
                             <!--<a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>-->
-                        </div>
-                    </div>
+                        <!-- </div>
+                    </div> -->
                     <!-- archive post -->
-                    <div class="post-style2 archive-post-style-2">
+                    <!-- <div class="post-style2 archive-post-style-2">
                         <a href="#"><img src="images/archive/archive-09.jpg" alt=""></a>
                         <div class="post-style2-detail">
                             <h4><a href="#" title="">It uses a dictionary of over 200 Latin words, combined with</a></h4>
@@ -205,11 +223,11 @@
                                 </ul>
                             </div>
                             <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit. <a href="#">Read more...</a></p>
-                            <!--<a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>-->
+                            <a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- archive post -->
-                    <div class="post-style2 archive-post-style-2">
+                    <!-- <div class="post-style2 archive-post-style-2">
                         <a href="#"><img src="images/archive/archive-10.jpg" alt=""></a>
                         <div class="post-style2-detail">
                             <h4><a href="#" title="">It uses a dictionary of over 200 Latin words, combined with</a></h4>
@@ -223,11 +241,11 @@
                                 </ul>
                             </div>
                             <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit. <a href="#">Read more...</a></p>
-                            <!--<a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>-->
+                            <a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- archive post -->
-                    <div class="post-style2 archive-post-style-2">
+                    <!-- <div class="post-style2 archive-post-style-2">
                         <a href="#"><img src="images/archive/archive-11.jpg" alt=""></a>
                         <div class="post-style2-detail">
                             <h4><a href="#" title="">It uses a dictionary of over 200 Latin words, combined with</a></h4>
@@ -241,11 +259,11 @@
                                 </ul>
                             </div>
                             <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit. <a href="#">Read more...</a></p>
-                            <!--<a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>-->
+                            <a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- archive post -->
-                    <div class="post-style2 archive-post-style-2">
+                    <!-- <div class="post-style2 archive-post-style-2">
                         <a href="#"><img src="images/archive/archive-12.jpg" alt=""></a>
                         <div class="post-style2-detail">
                             <h4><a href="#" title="">It uses a dictionary of over 200 Latin words, combined with</a></h4>
@@ -259,12 +277,12 @@
                                 </ul>
                             </div>
                             <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit. <a href="#">Read more...</a></p>
-                            <!--<a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>-->
+                            <a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- pagination -->
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-sm-12">
                         <ul class="pagination">
                             <li>
@@ -283,7 +301,8 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
+            </div>
             </div>
         </div>
     </section>

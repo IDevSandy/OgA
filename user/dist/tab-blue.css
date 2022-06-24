@@ -1,0 +1,162 @@
+.tab .nav-tabs{
+border-bottom:0 none;
+margin-top: 20px;
+}
+.tab .nav-tabs li a {
+font-size:14px;
+color:#fff;
+margin-right:0;
+padding:10px 45px;
+border-radius:0;
+overflow: hidden;
+/* background:#9a5379; */
+text-transform:uppercase;
+box-shadow: 8px 12px 25px 2px rgba(0, 0, 0, 0.4);
+transition: all 0.4s ease 0s;
+-webkit-transition: all 0.4s ease 0s;
+-moz-transition: all 0.4s ease 0s;
+-o-transition: all 0.4s ease 0s;
+background: #1A2980;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.tab .nav-tabs li:first-child a{
+border-top-left-radius:8px;
+}
+.tab .nav-tabs li:last-child a{
+border-top-right-radius:8px;
+}
+.tab .nav-tabs li a:hover,
+.tab .nav-tabs li.active a:hover,
+.tab .nav-tabs li.active a{
+background:#1a2980;
+color:#fff;
+margin-top: -19px;
+padding:20px 45px;
+border:1px solid #545f60;
+}
+.tab .tab-content{
+color:#000;
+padding: 25px 20px;
+background:#c5e7ff;				/*#545f60;*/
+border-radius: 0 0 8px 8px;
+box-shadow: 8px 12px 25px 2px rgba(0, 0, 0, 0.4);
+}
+@media only screen and (max-width: 650px){
+.tab .nav-tabs li{ width:100%; }
+.tab .nav-tabs li a{
+margin:0;
+padding:20px 45px;
+box-shadow: -2px -1px 25px 2px rgba(0, 0, 0, 0.4);
+}
+.tab .nav-tabs li:first-child a,
+.tab .nav-tabs li:last-child a{
+border-radius: 0;
+}
+.tab .nav-tabs li a:hover,
+.tab .nav-tabs li.active a:hover,
+.tab .nav-tabs li.active a{
+margin:0;
+}
+}
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: #1a2980;
+}
+
+.form-control {
+    border-radius: 1rem;
+}
+.bg-aqua1 {
+    /* background-color: #00c0ef !important; */
+    background: #009FFF;
+    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);
+    background: linear-gradient(to right, #ec2F4B, #009FFF);
+    color:#fff;
+}
+
+.bg-green1 {
+
+background: #8360c3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#fff;
+}
+
+.bg-yellow1
+{
+
+	background: #22c1c3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#fff;
+	}
+
+	.bg-red1
+	{
+		background: #0099F7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#fff;
+}
+.btn {
+  margin:2px;
+}
+.bg-success1 {
+  background: #2F7336;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #AA3A38, #2F7336);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #AA3A38, #2F7336); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#fff;
+}
+.bg-success-alt1 {
+  background: #2F7336;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #AA3A38, #2F7336);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #AA3A38, #2F7336); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#fff;
+}
+.bg-blue1 {
+  background: #43C6AC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#fff;
+}
+.bg-warning1 {
+  background: #F3904F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#fff;
+}
+.bg-purple1 {
+  background: #4568DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#fff;
+}
+
+.bg-marine1 {
+  background: #1A2980;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#fff;
+}
+.bg-rainbow1 {
+  background: #00F260;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:#fff;
+}
+
+ thead > tr:first-child {
+  background: #1A2980;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-transform: uppercase;
+  color:#fff;
+ }
+ tfoot > tr:first-child {
+   background: #1A2980;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   text-transform: uppercase;
+   color:#fff;
+  }

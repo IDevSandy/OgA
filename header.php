@@ -120,7 +120,7 @@
                                         <li><a href="national.php">Goverment Schemes</a></li>
                                         <li><a href="state.php">Career</a></li>
                                         <li><a href="local.php">Blog</a></li>
-                                        <li><a href="local.php">Contact</a></li>
+                                        <!-- <li><a href="local.php">Contact</a></li> -->
                                         <li><a href="local.php">About us</a></li>
                                         <li><a href="local.php">Login or Register</a></li>
                                 </ul>
@@ -137,7 +137,7 @@
                         <li><a href="govermentschemes.php">Goverment Schemes</a></li>
                         <li><a href="career.php">Career</a></li>
                         <li><a href="blog.php">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <!-- <li><a href="#">Contact</a></li> -->
                         <li><a href="#">About us</a></li>
                         <li>
                             <!-- <a href="login.php">Login Or Register<span class="fa arrow"></span></a> -->
@@ -193,7 +193,7 @@
                     <div class="col-sm-4 col-md-3">
                         <div class="top_header_menu_wrap">
                             <ul class="top-header-menu">
-                                <li><a href="register.php">REGISTER</a></li>
+                                <li><a href="login.php">REGISTER</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">LOGIN</a>
                                     <ul class="dropdown-menu">
@@ -205,7 +205,7 @@
                                                 <label class="checkbox-inline">
                                                     <input type="checkbox" value="">Remember me</label>
                                                 <button type="button" class="btn btn-lr btn-active">LOGIN</button>
-                                                <button type="button" class="btn btn-lr"><a href="register.php"> REGISTR</a></button>
+                                                <button type="button" class="btn btn-lr"><a href="login.php"> REGISTR</a></button>
                                                 <div class="foeget"><a href="#">Forget username/password?</a></div>
                                                 <div class="social_icon">
                                                     <div class="social_icon_box social_icon_box_1">
@@ -223,7 +223,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="contact.php">CONTACT</a></li>
+                                <!-- <li><a href="contact.php">CONTACT</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -346,7 +346,7 @@
                                         <li><a href="govermentschemes.php">Goverment Schemes</a></li>
                                         <li><a href="career.php">Career</a></li>
                                         <li><a href="blog.php">Blog</a></li>
-                                        <li><a href="contact.php">Contact</a></li>
+                                        <!-- <li><a href="contact.php">Contact</a></li> -->
                                         <li><a href="about.php">About us</a></li>
                                         <!-- <li><a href="login.php">Login or Register</a></li> -->
                                 </ul>
@@ -367,7 +367,7 @@
                         <li><a href="career.php" class="category04">CAREER</a></li>
                         <li><a href="govermentschemes.php" class="category05">GOVERMENT SCHEMES</a></li>
                         <li><a href="blog.php" class="category06">BLOG</a></li>
-                        <li><a href="contact.php" class="category07">CONTACT</a></li>
+                        <!-- <li><a href="contact.php" class="category07">CONTACT</a></li> -->
                         <li><a href="login.php" class="category08">LOGIN & REGISTRATION</a></li>
                         <li><a href="about.php" class="category08">ABOUT US</a></li>
                         

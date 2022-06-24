@@ -26,7 +26,7 @@
     <section class="login-reg-inner">
         <div class="container">
             <div class="row">
-    <div class="col-sm-6">
+               <div class="col-sm-6">
                     <div class="register-form-inner">
                         <h3 class="category-headding ">REGISTER NOW!</h3>
                         <div class="headding-border bg-color-1"></div>

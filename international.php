@@ -9,13 +9,26 @@
 <?php include('header.php');?>
 
 <body>
+<?php 
+	$where= array(
+                "status" => 1
+                );
+
+	$c=$obj->select_record('blog_categories',$where);
+  
+			
+		?>
 <div class="se-pre-con"></div>
 <div class="se-pre-con"></div>
-    
+
 <section class="headding-news">
+
         <div class="container">
             <div class="row row-margin">
+            
+            
                 <div class="col-sm-6 col-padding">
+                
                     <div class="post-wrapper post-grid-6 wow fadeIn" data-wow-duration="2s">
                         <div class="post-thumb img-zoom-in">
                             <a href="#">
@@ -24,7 +37,7 @@
                         </div>
                         <div class="post-info">
                             <span class="color-3">SPORTS </span>
-                            <h3 class="post-title post-title-size"><a href="#" rel="bookmark"> The generated Lorem Ipsum is therefore always free from . </a></h3>
+                            <h3 class="post-title post-title-size"><a href=ogafeed.php?id=5 rel="bookmark"> Latest International Sports News . </a></h3>
                             <div class="post-editor-date">
                                 <!-- post date -->
                                 <div class="post-date">
@@ -37,7 +50,9 @@
                             </div>
                         </div>
                     </div>
+                   
                 </div>
+                
                 <div class="col-sm-6 col-padding">
                     <div class="post-wrapper post-grid-7 wow fadeIn" data-wow-duration="2s">
                         <div class="post-thumb img-zoom-in">
@@ -47,7 +62,7 @@
                         </div>
                         <div class="post-info">
                             <span class="color-5">BUSINESS</span>
-                            <h3 class="post-title post-title-size"><a href="#" rel="bookmark">Contrary to popular belief, Lorem Ipsum is not simply random text. </a></h3>
+                            <h3 class="post-title post-title-size"><a href=ogafeed.php?id=6 rel="bookmark">Latest International Business News </a></h3>
                             <div class="post-editor-date">
                                 <!-- post date -->
                                 <div class="post-date">
@@ -68,12 +83,12 @@
                         <div class="post-wrapper post-grid-8 wow fadeIn" data-wow-duration="2s">
                             <div class="post-thumb img-zoom-in">
                                 <a href="#">
-                                    <img class="entry-thumb-bottom" src="images/slider/slide-13.jpg" alt="">
+                                    <img class="entry-thumb-bottom" src="images/slider/Fashion (1).jpg" alt="">
                                 </a>
                             </div>
                             <div class="post-info">
                                 <span class="color-4">FASHION</span>
-                                <h3 class="post-title post-title-size"><a href="#" rel="bookmark">There are many variations of passages of Lorem Ipsum available, but the majority have </a></h3>
+                                <h3 class="post-title post-title-size"><a href=ogafeed.php?id=7 rel="bookmark">Latest International Fashion News </a></h3>
                                 <div class="post-editor-date">
                                     <!-- post date -->
                                     <div class="post-date">
@@ -96,7 +111,7 @@
                             </div>
                             <div class="post-info">
                                 <span class="color-2">TECHNOLOGY</span>
-                                <h3 class="post-title post-title-size"><a href="#" rel="bookmark">There are many variations of passages of Lorem Ipsum available, but the majority have </a></h3>
+                                <h3 class="post-title post-title-size"><a href=ogafeed.php?id=8 rel="bookmark">Latest International Technology News </a></h3>
                                 <div class="post-editor-date">
                                     <!-- post date -->
                                     <div class="post-date">
@@ -105,7 +120,7 @@
                                     <!-- post comment -->
                                     <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
                                     <!-- read more -->
-                                    <a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>
+                                    <a class="readmore pull-right" href=ogafeed.php?id=5><i class="pe-7s-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -114,12 +129,12 @@
                         <div class="post-wrapper post-grid-10 wow fadeIn" data-wow-duration="2s">
                             <div class="post-thumb img-zoom-in">
                                 <a href="#">
-                                    <img class="entry-thumb-bottom" src="images/slider/slide-15.jpg" alt="">
+                                    <img class="entry-thumb-bottom" src="images/slider/health (3).jpg" alt="">
                                 </a>
                             </div>
                             <div class="post-info">
                                 <span class="color-1">HEALTH</span>
-                                <h3 class="post-title post-title-size"><a href="#" rel="bookmark">The standard chunk of Lorem Ipsum used since the 1500s is reproduced</a></h3>
+                                <h3 class="post-title post-title-size"><a href=ogafeed.php?id=9 rel="bookmark">Latest International Health News</a></h3>
                                 <div class="post-editor-date">
                                     <!-- post date -->
                                     <div class="post-date">
@@ -137,12 +152,12 @@
                         <div class="post-wrapper post-grid-10 wow fadeIn" data-wow-duration="2s">
                             <div class="post-thumb img-zoom-in">
                                 <a href="#">
-                                    <img class="entry-thumb-bottom" src="images/slider/slide-16.jpg" alt="">
+                                    <img class="entry-thumb-bottom" src="images/slider/politics.jpg" alt="">
                                 </a>
                             </div>
                             <div class="post-info">
                                 <span class="color-f">POLITICS</span>
-                                <h3 class="post-title post-title-size"><a href="#" rel="bookmark">The standard chunk of Lorem Ipsum used since the 1500s is reproduced</a></h3>
+                                <h3 class="post-title post-title-size"><a href=ogafeed.php?id=10 rel="bookmark">Latest International Politics News</a></h3>
                                 <div class="post-editor-date">
                                     <!-- post date -->
                                     <div class="post-date">
@@ -160,12 +175,12 @@
                         <div class="post-wrapper post-grid-10 wow fadeIn" data-wow-duration="2s">
                             <div class="post-thumb img-zoom-in">
                                 <a href="#">
-                                    <img class="entry-thumb-bottom" src="images/slider/slide-17.jpg" alt="">
+                                    <img class="entry-thumb-bottom" src="images/slider/Education.jpg" alt="">
                                 </a>
                             </div>
                             <div class="post-info">
                                 <span class="color-l">EDUCATION</span>
-                                <h3 class="post-title post-title-size"><a href="#" rel="bookmark">The standard chunk of Lorem Ipsum used since the 1500s is reproduced</a></h3>
+                                <h3 class="post-title post-title-size"><a href=ogafeed.php?id=11 rel="bookmark">Latest International Education News</a></h3>
                                 <div class="post-editor-date">
                                     <!-- post date -->
                                     <div class="post-date">
@@ -182,6 +197,7 @@
                 </div>
             </div>
         </div>
+        
     </section>
    
    

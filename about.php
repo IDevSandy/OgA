@@ -22,7 +22,13 @@
                 </div>
             </div>
         </div>
-    </section> 
+        
+        
+    </section>
+    <div class="container">
+        <center><img src="images/about.jpg" alt="images" width="550" height="700"></center>
+        </div> 
+    
 </body>
 <?php include('footer.php');?>
 </html>
