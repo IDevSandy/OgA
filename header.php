@@ -117,12 +117,12 @@
                                         <li><a href="local.php">Local</a></li>
                                 </ul>
                             </li>
-                                        <li><a href="national.php">Goverment Schemes</a></li>
-                                        <li><a href="state.php">Career</a></li>
-                                        <li><a href="local.php">Blog</a></li>
+                                        <li><a href="govermentschemes.php">Goverment Schemes</a></li>
+                                        <li><a href="career.php">Career</a></li>
+                                        <li><a href="blog.php">Blog</a></li>
                                         <!-- <li><a href="local.php">Contact</a></li> -->
-                                        <li><a href="local.php">About us</a></li>
-                                        <li><a href="local.php">Login or Register</a></li>
+                                        <li><a href="about.php">About us</a></li>
+                                        <li><a href="login.php">Login or Register</a></li>
                                 </ul>
                             </li>
                             <li> 
@@ -138,7 +138,7 @@
                         <li><a href="career.php">Career</a></li>
                         <li><a href="blog.php">Blog</a></li>
                         <!-- <li><a href="#">Contact</a></li> -->
-                        <li><a href="#">About us</a></li>
+                        <li><a href="about.php">About us</a></li>
                         <li>
                             <!-- <a href="login.php">Login Or Register<span class="fa arrow"></span></a> -->
                             <!-- <ul class="nav nav-second-level">
@@ -231,11 +231,11 @@
                     <div class="col-sm-8 col-md-7">
                         <div class="newsticker-inner">
                             <ul class="newsticker">
-                                <li><span class="color-1">Career</span><a href="career.php">Etiam imperdiet volutpat libero eu tristique.imperdiet volutpat libero eu tristique.</a></li>
+                                <!-- <li><span class="color-1">Career</span><a href="career.php">Etiam imperdiet volutpat libero eu tristique.imperdiet volutpat libero eu tristique.</a></li> -->
                                 <li><span class="color-2">International</span><a href="#">Girls' education is a climate solution': Malala Yousafzai joins climate protest</a></li>
                                 <li><span class="color-3">Health</span><a href="#">The unsanitary truth about period poverty and what governments can do</a></li>
                                 <li><span class="color-4">technology</span><a href="#">The ratio of men to women in engineering is 5:1.</a></li>
-                                <li><span class="color-1">Travel</span><a href="#">Etiam imperdiet volutpat libero eu tristique.imperdiet volutpat libero eu tristique.</a></li>
+                                <!-- <li><span class="color-1">Travel</span><a href="#">Etiam imperdiet volutpat libero eu tristique.imperdiet volutpat libero eu tristique.</a></li> -->
                             </ul>
                             <div class="next-prev-inner">
                                 <a href="#" id="prev-button"><i class='pe-7s-angle-left'></i></a>
