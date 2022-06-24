@@ -1,11 +1,11 @@
 <?php session_start();
-if($_SESSION['BLOG_LOGIN_BY'] && $_SESSION['BLOG_LOGIN_BY'] == "yes" ) {
+// if($_SESSION['BLOG_LOGIN_BY'] && $_SESSION['BLOG_LOGIN_BY'] == "yes" ) {
 
-    // session_destroy();
+//     // session_destroy();
   
-    header("Location:user/manage_blog.php?q=already login!");
+//     header("Location:user/manage_blog.php?q=already login!");
   
-  }
+//   }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -60,7 +60,7 @@ if($_SESSION['BLOG_LOGIN_BY'] && $_SESSION['BLOG_LOGIN_BY'] == "yes" ) {
                             <input type="text" class="form-control" id="uname" name="uname" placeholder="Enter Your Email" required>
                             <label>Password <sup>*</sup></label>
                             <input type="password" class="form-control" id="pass" name="pass" placeholder="Enter Your Password" required>
-
+                                <br>
                             <button type="submit" name="login" class="btn btn-style" onclick="">Login</button>
                             <?php
                             if(isset($_POST ["login"])){

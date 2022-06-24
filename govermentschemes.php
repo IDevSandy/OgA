@@ -177,7 +177,7 @@
                             <h4><a href="#" title=""><?php echo $c['title'] ?></a></h4>
                             <div class="date">
                                 <ul>
-                                    <li>By<a title="" href="#"><span>Jone Kilna</span></a> --</li>
+                                    <li>By<a title="" href="#"><span><?php echo $c['author'] ?></span></a> --</li>
                                     <li><a title="" href="#">11 Nov 2015</a> --</li>
                                     <li>
                                         <div class="comments"><a href="#">0</a></div>

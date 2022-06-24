@@ -45,13 +45,13 @@
                         <div class="item">
                             <div class="post-wrapper wow fadeIn" data-wow-duration="2s">
                                 <div class="post-thumb img-zoom-in">
-                                    <a href="#">
+                                    <a href=govermentschemes.php>
                                         <img class="entry-thumb" src="images/slider/BBBP_PIC (2).jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="post-info">
                                     <span class="color-2">GOVERMENT SCHEMES</span>
-                                    <h3 class="post-title"><a href="#" rel="bookmark">BETI BACHAO BETI PADHAO </a></h3>
+                                    <h3 class="post-title"><a href=govermentschemes.php rel="bookmark">BETI BACHAO BETI PADHAO </a></h3>
                                     <div class="post-editor-date">
                                         <!-- post date -->
                                         <div class="post-date">
@@ -60,7 +60,7 @@
                                         <!-- post comment -->
                                         <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
                                         <!-- read more -->
-                                        <a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>
+                                        <a class="readmore pull-right" href=govermentschemes.php><i class="pe-7s-angle-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -68,13 +68,13 @@
                         <div class="item">
                             <div class="post-wrapper wow fadeIn" data-wow-duration="2s">
                                 <div class="post-thumb img-zoom-in">
-                                    <a href="#">
+                                    <a href=govermentschemes.php>
                                         <img class="entry-thumb" src="images/slider/One-Stop-Centre-Scheme (1).jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="post-info">
                                     <span class="color-3">GOVERMENT SCHEMES </span>
-                                    <h3 class="post-title"><a href="#" rel="bookmark">One Stop Centre Scheme</a></h3>
+                                    <h3 class="post-title"><a href=govermentschemes.php rel="bookmark">One Stop Centre Scheme</a></h3>
                                     <div class="post-editor-date">
                                         <!-- post date -->
                                         <div class="post-date">
@@ -83,7 +83,7 @@
                                         <!-- post comment -->
                                         <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
                                         <!-- read more -->
-                                        <a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>
+                                        <a class="readmore pull-right" href=govermentschemes.php><i class="pe-7s-angle-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -97,7 +97,7 @@
                                 </div>
                                 <div class="post-info">
                                     <span class="color-4">GOVERMENT SCHEMES </span>
-                                    <h3 class="post-title"><a href="#" rel="bookmark">Women Helpline Scheme</a></h3>
+                                    <h3 class="post-title"><a href=govermentschemes.php rel="bookmark">Women Helpline Scheme</a></h3>
                                     <div class="post-editor-date">
                                         <!-- post date -->
                                         <div class="post-date">
@@ -106,7 +106,7 @@
                                         <!-- post comment -->
                                         <div class="post-author-comment"><i class="pe-7s-comment"></i> 13 </div>
                                         <!-- read more -->
-                                        <a class="readmore pull-right" href="#"><i class="pe-7s-angle-right"></i></a>
+                                        <a class="readmore pull-right" href=govermentschemes.php><i class="pe-7s-angle-right"></i></a>
                                     </div>
                                 </div>
                             </div>
